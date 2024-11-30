@@ -24,14 +24,16 @@ This repository contains an example of using the Amazon Titan Image Generator V2
    ```bash
    pip install -r requirements.txt
 3. **Configure AWS credentials:** Ensure your AWS credentials are set up in ~/.aws/credentials or use environment variables.
+
 4. **Run the script:** Replace "demo.jpeg" in the script with your image file path and execute:
    ```bash
    python titan_image_background_removal.py
 
 ## Example Usage
 
-   ```bash
+```bash
    python titan_image_background_removal.py
+```
 Output: The script generates an output_image.png with a transparent background.
 
 ## Cost Comparison
