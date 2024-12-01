@@ -37,10 +37,12 @@ This repository contains an example of using the Amazon Titan Image Generator V2
 Output: The script generates an output_image.png with a transparent background.
 
 Before: 
+
 ![Alt text](./demo.jpeg?raw=true "Input Image)")
 
 
 After:
+
 ![Alt text](./output_image.png?raw=true "Output Image after BG Removal)")
 
 
