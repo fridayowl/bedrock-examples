@@ -27,14 +27,23 @@ This repository contains an example of using the Amazon Titan Image Generator V2
 
 4. **Run the script:** Replace "demo.jpeg" in the script with your image file path and execute:
    ```bash
-   python titan_image_background_removal.py
+   python bedrock_titan_image_bg_remove.py
 
 ## Example Usage
 
 ```bash
-   python titan_image_background_removal.py
+   python bedrock_titan_image_bg_remove.py
 ```
 Output: The script generates an output_image.png with a transparent background.
+
+Before: 
+![Alt text](./demo.jpeg?raw=true "Input Image)")
+
+
+After:
+![Alt text](./output_image.png?raw=true "Output Image after BG Removal)")
+
+
 
 ## Cost Comparison
 
