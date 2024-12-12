@@ -1,6 +1,6 @@
 # Amazon Titan Image / Nova Canvas Background Removal Example
 
-This repository contains an example of using the Amazon Titan V2 / Nova Canvas Image Generator to remove image backgrounds programmatically. By leveraging the Bedrock service, you can perform high-quality background removal at a fraction of the cost of typical image editing apps.
+This repository contains an examples of using the Amazon Titan V2 / Nova Canvas Image FM Models. By leveraging the Bedrock service, you can perform high-quality background removal / change at a fraction of the cost of typical image editing apps.
 
 ## Features
 
@@ -46,9 +46,25 @@ After:
 
 ![Alt text](./output_image.png?raw=true "Output Image after BG Removal)")
 
+
+Amazon Nova Canvas Model Example for Background Change with Prompt
+   ```bash
+   python bedrock_nova_image_bg_change_prompt.py prompt_image_bg_demo.jpg "scenic beach sunset palm trees"
+   ```
+Output: The script generates an output_background_changed.png with a the background from the prompt.
+
+Before: 
+
+
+![Alt text](./prompt_image_bg_demo.jpg?raw=true "Input Image)")
+
+After:
+
+![Alt text](./output_background_changed.png?raw=true "Output Image after BG change)")
+
 ## Cost Comparison
 
-Compared to apps charging $10-$20 per image, this solution costs just a few cents per operation using Amazon Bedrock's Titan/Nova Canvas model.
+Compared to apps charging $10-$20 per image, this solution costs just a few cents per operation using Amazon Bedrock's Titan/Nova Canvas models.
 
 ## Contributing
 
