@@ -39,28 +39,25 @@ Output: The script generates an output_image.png with a transparent background.
 
 Before: 
 
-
-![Alt text](./demo2.jpeg?raw=true "Input Image)")
+<img src="./demo2.jpeg" alt="Input Image" title="Input Image" width="300">
 
 After:
 
-![Alt text](./output_image.png?raw=true "Output Image after BG Removal)")
+<img src="./output_image.png" alt="Output Image after BG Removal" title="Output Image after BG Removal" width="300">
 
-
-Amazon Nova Canvas Model Example for Background Change with Prompt
+## Amazon Nova Canvas Model Example for Background Change with Prompt
    ```bash
    python bedrock_nova_image_bg_change_prompt.py prompt_image_bg_demo.jpg "scenic beach sunset palm trees"
    ```
-Output: The script generates an output_background_changed.png with a the background from the prompt.
+Output: The script generates an output_background_changed.png with a background from the prompt.
 
 Before: 
 
-
-![Alt text](./prompt_image_bg_demo.jpg?raw=true "Input Image)")
+<img src="./prompt_image_bg_demo.jpg" alt="Input Image" title="Input Image" width="300">
 
 After:
 
-![Alt text](./output_background_changed.png?raw=true "Output Image after BG change)")
+<img src="./output_background_changed.png" alt="Output Image after BG change" title="Output Image after BG change" width="300">
 
 ## Cost Comparison
 
