@@ -1,4 +1,4 @@
-# Amazon Titan Image / Nova Canvas Background Removal Example
+# Amazon Bedrock Examples Open Source Repo
 
 This repository contains an examples of using the Amazon Titan V2 / Nova Canvas Image FM Models. By leveraging the Bedrock service, you can perform high-quality background removal / change at a fraction of the cost of typical image editing apps.
 
