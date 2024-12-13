@@ -1,11 +1,11 @@
 # Amazon Bedrock Examples Open Source Repo
 
-This repository contains an examples of using the Amazon Titan V2 / Nova Canvas SOTA Frontier FM Models. By leveraging the Bedrock service, you can perform video generation and high-quality background removal / change at a fraction of the cost of typical image editing apps.
+This repository contains examples of using the Amazon Titan V2, Amazon Nova Canvas and Nova Reel SOTA (State-Of-The-Art) Frontier FM Models. By leveraging the Bedrock service, you can perform video generation and high-quality Image background removal / change at a fraction of the cost of typical image editing apps.
 
 ## Features
 
-- **Low-Cost Processing:** Remove image backgrounds for just a few cents using Amazon Bedrock.
-- **High Accuracy:** Utilizes the Titan Image V2 / Nova Canvas for professional-grade results.
+- **Low-Cost Processing:** Video generation, remove/replace image backgrounds for just a few cents using Amazon Bedrock.
+- **High Accuracy:** Utilizes the Titan Image V2, Nova Canvas, Nova Reel for professional-grade results.
 - **Python Automation:** Includes a Python script for easy integration into your workflows.
 
 ## Requirements
@@ -76,7 +76,7 @@ Output: The script generates a 6 second video in the S3 bucket and specified pre
 
 ## Cost Comparison
 
-Compared to apps charging $10-$20 per image, this solution costs just a few cents per operation using Amazon Bedrock's Titan/Nova Canvas models.
+Compared to apps charging $10-$20 per image, this solution costs just a few cents per operation using Amazon Bedrock's Titan/Nova models.
 
 ## Contributing
 
