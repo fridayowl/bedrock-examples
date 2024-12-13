@@ -1,6 +1,6 @@
 # Amazon Bedrock Examples Open Source Repo
 
-This repository contains an examples of using the Amazon Titan V2 / Nova Canvas Image FM Models. By leveraging the Bedrock service, you can perform high-quality background removal / change at a fraction of the cost of typical image editing apps.
+This repository contains an examples of using the Amazon Titan V2 / Nova Canvas SOTA Frontier FM Models. By leveraging the Bedrock service, you can perform video generation and high-quality background removal / change at a fraction of the cost of typical image editing apps.
 
 ## Features
 
@@ -25,7 +25,10 @@ This repository contains an examples of using the Amazon Titan V2 / Nova Canvas 
    pip install -r requirements.txt
 3. **Configure AWS credentials:** Ensure your AWS credentials are set up in ~/.aws/credentials or use environment variables.
 
-4. **Run the script:** Replace "demo.jpeg" in the script with your image file path and execute:
+4. **Run the script:** 
+
+## Amazon Titan and Nova Canvas Model Example for Background Removal
+Replace "demo.jpeg" in the script with your image file path and execute:
 
 Amazon Titan Model Example
    ```bash
@@ -58,6 +61,18 @@ Before:
 After:
 
 <img src="./output_background_changed.png" alt="Output Image after BG change" title="Output Image after BG change" width="300">
+
+## Amazon Nova Reel Model for Video Generation
+   ```bash
+   python bedrock_nova_reel_text2video.py
+   ```
+Input: 
+
+<img src="./vasai_village.jpeg" alt="Input Image" title="Input Image" width="300">
+
+Output: The script generates a 6 second video in the S3 bucket and specified prefix in the python script.
+
+<img src="./output_nova_reel.gif" alt="Input Image" title="Input Image" width="300">
 
 ## Cost Comparison
 
