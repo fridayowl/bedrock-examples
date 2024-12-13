@@ -70,7 +70,7 @@ Input:
 
 <img src="./vasai_village.jpeg" alt="Input Image" title="Input Image" width="300">
 
-Output: The script generates a 6 second video in the S3 bucket and specified prefix in the python script.
+Output: The script generates a 6 second video in the S3 bucket and the prefix specified in the python script.
 
 <img src="./output_nova_reel.gif" alt="Input Image" title="Input Image" width="300">
 
